@@ -79,6 +79,12 @@ build CMakeFiles/work1.dir/problem4.cpp.o: CXX_COMPILER__work1_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/work1.dir
   OBJECT_FILE_DIR = CMakeFiles/work1.dir
 
+build CMakeFiles/work1.dir/problem5.cpp.o: CXX_COMPILER__work1_unscanned_Debug /Users/o.goziyev/CLionProjects/work1/problem5.cpp || cmake_object_order_depends_target_work1
+  DEP_FILE = CMakeFiles/work1.dir/problem5.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/work1.dir
+  OBJECT_FILE_DIR = CMakeFiles/work1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target work1
@@ -87,7 +93,7 @@ build CMakeFiles/work1.dir/problem4.cpp.o: CXX_COMPILER__work1_unscanned_Debug /
 #############################################
 # Link the executable work1
 
-build work1: CXX_EXECUTABLE_LINKER__work1_Debug CMakeFiles/work1.dir/main.cpp.o CMakeFiles/work1.dir/problem1.cpp.o CMakeFiles/work1.dir/problem2.cpp.o CMakeFiles/work1.dir/problem3.cpp.o CMakeFiles/work1.dir/problem4.cpp.o
+build work1: CXX_EXECUTABLE_LINKER__work1_Debug CMakeFiles/work1.dir/main.cpp.o CMakeFiles/work1.dir/problem1.cpp.o CMakeFiles/work1.dir/problem2.cpp.o CMakeFiles/work1.dir/problem3.cpp.o CMakeFiles/work1.dir/problem4.cpp.o CMakeFiles/work1.dir/problem5.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/work1.dir
   POST_BUILD = :
@@ -219,6 +225,37 @@ build problem4: CXX_EXECUTABLE_LINKER__problem4_Debug CMakeFiles/problem4.dir/pr
   TARGET_FILE = problem4
   TARGET_PDB = problem4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem5
+
+
+#############################################
+# Order-only phony target for problem5
+
+build cmake_object_order_depends_target_problem5: phony || CMakeFiles/problem5.dir
+
+build CMakeFiles/problem5.dir/problem5.cpp.o: CXX_COMPILER__problem5_unscanned_Debug /Users/o.goziyev/CLionProjects/work1/problem5.cpp || cmake_object_order_depends_target_problem5
+  DEP_FILE = CMakeFiles/problem5.dir/problem5.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/problem5.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem5
+
+
+#############################################
+# Link the executable problem5
+
+build problem5: CXX_EXECUTABLE_LINKER__problem5_Debug CMakeFiles/problem5.dir/problem5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/problem5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = problem5
+  TARGET_PDB = problem5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -253,7 +290,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/o.goziyev/CLionProjects/work1/cmake-build-debug
 
-build all: phony work1 problem1 problem2 problem3 problem4
+build all: phony work1 problem1 problem2 problem3 problem4 problem5
 
 # =============================================================================
 # Built-in targets
