@@ -16,7 +16,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -32,7 +35,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -41,14 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "problem1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-problem1-Debug-95adbaace247eff290bd.json",
+					"jsonFile" : "target-problem1-Debug-76ebc378599a8b5e84d0.json",
 					"name" : "problem1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "problem2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2-Debug-b78cc329d58d2b05ca83.json",
+					"name" : "problem2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3-Debug-09d24cf338a85f3c0bea.json",
+					"name" : "problem3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4-Debug-22fba91f8a16d9f48951.json",
+					"name" : "problem4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "work1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-work1-Debug-0b87db219f95de8bfe98.json",
+					"jsonFile" : "target-work1-Debug-99173385e52e2c34fa63.json",
 					"name" : "work1",
 					"projectIndex" : 0
 				}

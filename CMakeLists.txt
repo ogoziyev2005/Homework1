@@ -5,5 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(work1
         main.cpp
-        problem1.cpp)
+        problem1.cpp
+        problem2.cpp
+        problem3.cpp
+        problem4.cpp)
 add_executable(problem1 problem1.cpp)
+add_executable(problem2 problem2.cpp)
+add_executable(problem3 problem3.cpp)
+add_executable(problem4 problem4.cpp)
